@@ -1,0 +1,67 @@
+---
+---
+
+$primary-color: #f1e6b2
+
+// Global styles
+section
+  padding: 100px 0px 75px 0px
+
+header
+  background-color: $primary-color
+
+// Boostrap overrides
+.navbar
+  margin-bottom: 0px
+  ader
+  background-color: $primary-color
+
+// hero section
+#hero
+  background-image: url('/img/hero.jpg')
+  background-size: cover
+  height: calc(100vh - 50px)
+
+// about section
+#about
+  #about-headshot
+    height: 100%
+    width: 100%
+
+#events
+  background-color: $primary-color
+  font-size: 16px
+  .event-wrapper
+    &:not(:last-child)
+      margin-bottom: 40px
+      padding-bottom: 15px
+      border-bottom: 1px solid black
+    div
+      display: inline-block
+    .date
+      width: 100%
+      max-width: 20%
+    .name
+      width: 100%
+      max-width: 58%
+    .location
+      width: 100%
+      max-width: 10%
+    .time
+      width: 100%
+      max-width: 10%
+
+#instagram
+  #instafeed
+    overflow: auto
+    a
+      display: inline-block
+      width: 32%
+      margin-right: 22px
+      margin-bottom: 22px
+      &:nth-child(3), &:nth-child(6)
+        margin-right: 0px
+      &:nth-child(4), &:nth-child(5), &:nth-child(5)
+        margin-bottom: 0px
+      img
+        width: 100%

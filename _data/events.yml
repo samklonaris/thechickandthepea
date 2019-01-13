@@ -1,0 +1,20 @@
+- name: Event 1
+  date: January 1, 2019
+  location: Chicago
+  time: 1pm - 3pm
+  url: www.google.com
+- name: Event 2
+  date: February 1, 2019
+  location: Cleveland
+  time: 1pm - 3pm
+  url: www.google.com
+- name: Event 3
+  date: Marcy 1, 2019
+  location: Chicago
+  time: 1pm - 3pm
+  url: www.google.com
+- name: Event 4
+  date: January 1, 2019
+  location: Chicago
+  time: 1pm - 3pm
+  url: www.google.com

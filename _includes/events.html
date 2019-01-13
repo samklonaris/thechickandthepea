@@ -1,0 +1,25 @@
+<section id="events">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="block">
+          <h2>Events</h2>
+
+            {% if site.data.events.size > 0 %}
+              {% for event in site.data.events %}
+                <div class='event-wrapper'>
+                  <div class='date'>{{ event.date }}</div>
+                  <div class='name'> 
+                    <a href={{event.url}}>{{ event.name }} </a>
+                  </div>
+                  <div class='location'>{{ event.location }}</div>
+                  <div class='time'>{{ event.time }}</div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
